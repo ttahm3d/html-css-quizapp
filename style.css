@@ -1,0 +1,62 @@
+@import url("https://chunksui.netlify.app/css/style.css");
+
+/* Header Styles */
+
+.shadow {
+  box-shadow: 0 0 4px hsl(var(--bg-400));
+}
+
+.q-container {
+  width: 90vw;
+  max-width: 85em;
+  margin: 0 auto;
+}
+
+/* resets */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-Lato);
+}
+
+body {
+  font-family: var(--font-poppins);
+}
+
+/* Header Styles */
+
+.navbar {
+  background-color: inherit;
+  color: inherit;
+}
+
+.logo h2 {
+  font-size: 2.2rem;
+  font-weight: 700;
+  padding: 0;
+}
+
+.search-box {
+  display: none;
+}
+
+/* footer styles */
+
+.q-footer {
+  margin-top: auto;
+  padding: 2rem;
+}
+
+.q-footer h3 {
+  padding: 0;
+}
+
+@media (min-width: 760px) {
+  .search-box {
+    display: block;
+  }
+}
