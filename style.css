@@ -55,6 +55,55 @@ body {
   padding: 0;
 }
 
+/* Specific styles */
+
+.q-hero {
+  padding: 2rem 0;
+  background-color: hsl(var(--bg-600));
+}
+
+.q-hero-container {
+  width: 90vw;
+  max-width: 48rem;
+  margin: 0 auto;
+}
+
+.categories-container {
+  padding: 2rem 0;
+  align-self: center;
+}
+
+.quiz-cards-wrapper {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
+}
+
+.quiz-card {
+  background-color: hsl(var(--bg-600));
+}
+
+.quiz-description-container {
+  padding: 1rem;
+}
+
+.quiz-card-title {
+  font-size: 2rem;
+  font-weight: 600;
+  color: var(--pure-white);
+}
+
+.quiz-card-description {
+  padding-top: 1rem;
+  color: hsl(var(font-500));
+}
+
+.quiz-button-container {
+  margin: 1rem;
+  display: flex;
+  justify-content: flex-end;
+}
+
 @media (min-width: 760px) {
   .search-box {
     display: block;
