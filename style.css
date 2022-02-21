@@ -73,10 +73,24 @@ body {
   align-self: center;
 }
 
+.card-image-container {
+  padding: 2rem 1rem 0;
+}
+
 .quiz-cards-wrapper {
   display: grid;
   gap: 1rem;
   grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
+}
+
+.categories-cards-wrapper {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+}
+
+.categories-page-container {
+  padding: 2rem 0;
 }
 
 .quiz-card {
@@ -121,6 +135,12 @@ body {
 .rules-btn-container a {
   margin: 1rem 0;
   display: inline-block;
+}
+
+.questions-container {
+  width: 90vw;
+  max-width: 40rem;
+  margin: 0 auto;
 }
 
 @media (min-width: 760px) {
