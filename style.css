@@ -104,6 +104,25 @@ body {
   justify-content: flex-end;
 }
 
+.rules-container {
+  width: 90vw;
+  max-width: 35rem;
+  margin: 0 auto;
+}
+
+.list-item:first-child {
+  padding-top: 2rem;
+}
+
+.list-item {
+  color: hsl(var(font-500));
+}
+
+.rules-btn-container a {
+  margin: 1rem 0;
+  display: inline-block;
+}
+
 @media (min-width: 760px) {
   .search-box {
     display: block;
