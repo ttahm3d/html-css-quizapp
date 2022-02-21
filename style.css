@@ -105,7 +105,6 @@ body {
 .quiz-card-title {
   font-size: 2rem;
   font-weight: 600;
-  color: var(--pure-white);
 }
 
 .quiz-card-description {
